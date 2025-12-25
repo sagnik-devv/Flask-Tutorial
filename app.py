@@ -11,4 +11,10 @@ def about():
 @app.route('/contact')
 def contact():
     return 'This is the contact page' 
+    
+    
+ #route should be unique
+ #route should be small and readable
+ #function name should be unique and should return something
+
 
