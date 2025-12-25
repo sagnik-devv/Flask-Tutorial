@@ -1,0 +1,57 @@
+HTTP: Hyper text Transfer Protocol
+
+HTTP (Hyper text Transfer Protocol) is the rulebook for how webpages and a server  communicate with each other. 
+When someone types a URL into their browser, the browser sends an HTTP request to the server, and the server sends back an HTTP response. 
+The HTTP request contains a method, headers, and a body. The HTTP response contains a status code, headers, and a body. 
+The method is GET, POST, PUT, DELETE, etc. The headers are key-value pairs that contain metadata about the request or response. 
+The body is the actual data that is being sent. 
+
+HTTPS: Hyper text Transfer Protocol Secure
+HTTPS is a secure version of HTTP. It encrypts the data being sent between the client and the server.
+
+Detailed Workflow of an HTTP/HTTPS Request:
+1. DNS Resolution: The browser translates the domain name into an IP address.
+2. TCP Handshake: The client and server establish a connection using a "three-way handshake."
+3. TLS Handshake (HTTPS only): The client and server exchange security keys and verify the server's identity via an SSL/TLS certificate to enable encryption.
+4. Request: The browser sends an HTTP request message to the server.
+5. Processing: The server processes the request, often interacting with a database or backend logic.
+6. Response: The server sends an HTTP response back, including a status code (e.g., 200 OK or 404 Not Found) and the requested content.
+7. Rendering: The browser receives the response and renders the content for the user.
+
+Think of it using this restaurant analogy:
+1. Connection: You walk into a restaurant and sit at a table.
+2. Security (HTTPS): You and the waiter use a secret code or go to a private room so no one else can hear your order or credit card details.
+3. Request: You tell the waiter, "I would like a burger, please."
+4. Response: The waiter brings the burger to your table.
+5. Conclusion: You finish your meal and leave, or stay to order something else.
+
+Status code: 
+200 OK: The request was successful.
+404 Not Found: The requested resource was not found on the server.
+500 Internal Server Error: The server encountered an unexpected condition that prevented it from fulfilling the request.
+
+
+URL: Uniform Resource Locator
+A URL is the specific address of a resource on the internet. Just like your home address tells people where you live, a URL tells the browser exactly where to find a specific webpage, image, or file.
+
+Components of a URL:
+1. Protocol: (e.g., https://) Tells the browser which "rulebook" to use to communicate.
+2. Domain: (e.g., www.google.com) The name of the website or the server's identity.
+3. Path: (e.g., /images/logo.png) The specific folder or file location on that server.
+
+Analogy:
+If the internet is a giant city, the Domain is the building (like a library), and the Path is the specific book and page number you are looking for inside that building.
+
+Web Server:
+A web server is a computer that stores website files (like HTML documents, images, and CSS stylesheets) and delivers them to users over the internet. When you type a URL in your browser, you are asking the web server for those specific files.
+
+Analogy:
+Think of a web server as a librarian. You (the browser) ask for a specific book (the website), and the librarian finds it on the shelf and hands it to you so you can read it.
+
+Web Client:
+A web client is any software or application (like Google Chrome, Safari, or a mobile app) that requests and displays content from a web server. It acts as the interface between you and the web.
+
+Analogy:
+If the web server is the librarian, the web client is the person visiting the library. You (the client) are the one asking for a specific book, and then you are the one who sits down to read it once it's provided.
+
+
