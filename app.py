@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app= Flask(__name__) # __name__ is a special variable in Python that returns the name of the current module.
 
@@ -16,5 +16,12 @@ def contact():
  #route should be unique
  #route should be small and readable
  #function name should be unique and should return something
+
+@app.route("/submit", methods=["GET","POST"])
+def submit():
+    if request.method == "POST":
+        return 'You send a POST request'
+    else:
+        return 'You send a GET request'
 
 
