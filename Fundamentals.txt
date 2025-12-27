@@ -1,5 +1,4 @@
 HTTP: Hyper text Transfer Protocol
-
 HTTP (Hyper text Transfer Protocol) is the rulebook for how webpages and a server  communicate with each other. 
 When someone types a URL into their browser, the browser sends an HTTP request to the server, and the server sends back an HTTP response. 
 The HTTP request contains a method, headers, and a body. The HTTP response contains a status code, headers, and a body. 

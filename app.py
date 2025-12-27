@@ -17,11 +17,10 @@ def contact():
  #route should be small and readable
  #function name should be unique and should return something
 
-@app.route("/submit", methods=["GET","POST"])
+@app.route("/submit", methods=["GET","POST"]) #always use ["GET","POST"] in methods
+#methods is a list of HTTP methods that the route will accept. 
 def submit():
     if request.method == "POST":
         return 'You send a POST request'
     else:
         return 'You send a GET request'
-
-
