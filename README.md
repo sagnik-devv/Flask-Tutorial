@@ -1,26 +1,51 @@
 # Flask Learning Repository 🐍🌱
 
-This repository is created while I am **learning Flask**.
+This repository is created while I am **learning Flask step by step**.
 
-I am using this repo to practice backend development concepts, understand how Flask works, and build small examples as I learn step by step.
+I am using this space to practice backend concepts, understand how Flask works internally, and experiment with small examples as I continue learning.
 
-This is not a complete project, but a **learning journey**.
-
----
-
-## 📖 What I Am Learning
-
-* Basics of Flask
-* Creating a Flask app
-* Routing
-* Templates with HTML
-* Connecting frontend and backend
-* Handling forms
-* Understanding Flask folder structure
+This is a **learning-focused repository**, not a production-level project.
 
 ---
 
-## 🛠️ Tech Used
+## 📘 What I’m Learning
+
+* Flask fundamentals
+* Application structure
+* Routing and URL handling
+* HTTP methods (GET, POST)
+* Templates and rendering HTML
+* Basic login page logic
+* Core Python concepts used in backend
+
+---
+
+## 🗂️ Repository Overview
+
+```
+Flask-Tutorial/
+│
+├── app.py                 # Main Flask app
+├── login_page.py          # Login page practice
+│
+├── templates/             # HTML templates
+│
+├── static/
+│   └── css/               # CSS files
+│
+├── core_objects.txt       # Python core concepts notes
+├── Fundamentals.txt       # Python fundamentals revision
+├── HTTP_Method.txt        # HTTP methods notes
+│
+├── __pycache__/           # Auto-generated
+└── README.md
+```
+
+(Some files are notes created during learning for revision purposes.)
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
 * Flask
@@ -29,33 +54,18 @@ This is not a complete project, but a **learning journey**.
 
 ---
 
-## 📁 Current Structure
-
-```
-flask-learning/
-│
-├── app.py
-├── templates/
-├── static/
-└── README.md
-```
-
-(Structure may change as I learn more.)
-
----
-
 ## ▶️ How to Run
 
-1. Clone the repo
+1. Clone the repository
 
 ```
-git clone https://github.com/your-username/flask-learning.git
+git clone https://github.com/sagnik-devv/Flask-Tutorial.git
 ```
 
-2. Go to the folder
+2. Move into the project folder
 
 ```
-cd flask-learning
+cd Flask-Tutorial
 ```
 
 3. Install Flask
@@ -64,7 +74,7 @@ cd flask-learning
 pip install flask
 ```
 
-4. Run the app
+4. Run the application
 
 ```
 python app.py
@@ -78,19 +88,26 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🎯 Purpose
+## 🎯 Purpose of This Repo
 
-* Practice Flask concepts
-* Build backend confidence
+* Learn Flask practically
+* Build backend logic confidence
+* Understand how frontend connects with Python
 * Prepare for future full stack projects
 
 ---
 
-## 📌 Note
+## 🚧 Ongoing Work
 
-This repository will keep changing as I continue learning Flask.
+This repository will keep evolving as I learn more concepts such as:
 
-Mistakes are part of the process 🚀
+* Forms handling
+* Sessions
+* Database integration
+* Authentication
+* Flask with SQL
+
+More files and features will be added gradually.
 
 ---
 
@@ -98,3 +115,7 @@ Mistakes are part of the process 🚀
 
 **Sagnik Chakraborty**
 B.Tech CSE | Lovely Professional University
+
+---
+
+Learning in public. One route at a time 🚀
