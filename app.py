@@ -12,7 +12,7 @@ app.secret_key = "super_secret_key"
 
 # Define a route for valid users to see a welcome message
 # @app.route connects a URL rule to a function.
-@app.route('/hello')
+@app.route('/hello') 
 def home():
     # This function runs when the user visits http://localhost:5000/hello
     return 'Hello User this is my first flask app'
@@ -61,15 +61,9 @@ def login():
     
     # 2. Display the Login Form (GET)
     # This block runs when you first visit the page.
-    return '''
-    <h1>Login</h1>
-    <!-- The form submits to the same URL ('/') using the POST method -->
-    <form method="post">
-            <label>Username:</label> <input type="text" name="username"><br><br>
-            <label>Password:</label> <input type="password" name="password"><br><br>
-            <input type="submit" value="Login">
-        </form>
-    ''' 
+    # 2. Display the Login Form (GET)
+    # This block runs when you first visit the page.
+    return render_template('login.html')
 
 # Protected Welcome Page
 # Protected Welcome Page
