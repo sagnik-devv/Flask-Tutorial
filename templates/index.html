@@ -1,1 +1,24 @@
+{% extends "base.html" %}
 
+{% block title %}Welcome - {{ user }}{% endblock %}
+
+{% block content %}
+<h1>Welcome, {{ user }}!</h1>
+<p>This page is powered by Jinja2 templates.</p>
+
+<!-- Example of an 'If' statement -->
+{% if items %}
+<h2>Your Learning List:</h2>
+<ul>
+    <!-- Example of a 'For' loop -->
+    {% for item in items %}
+    <li>{{ loop.index }}. {{ item }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>You have no items in your list.</p>
+{% endif %}
+
+<hr>
+<p><i>This content was dynamically generated!</i></p>
+{% endblock %}
