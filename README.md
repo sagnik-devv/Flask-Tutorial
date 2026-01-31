@@ -30,7 +30,8 @@ Flask-Tutorial/
 │
 ├── templates/              # HTML templates
 │   ├── base.html
-│   └── index.html
+│   ├── index.html
+│   └── login.html      # Styled login page template
 │
 ├── static/
 │   └── css/
