@@ -25,20 +25,25 @@ This is a **learning-focused repository**, not a production-level project.
 ```
 Flask-Tutorial/
 │
-├── app.py                 # Main Flask app
-├── login_page.py          # Login page practice
+├── app.py                  # Main Flask app
+├── login_page.py           # Login page practice
 │
-├── templates/             # HTML templates
+├── templates/              # HTML templates
+│   ├── base.html
+│   └── index.html
 │
 ├── static/
-│   └── css/               # CSS files
+│   └── css/
+│       └── main.css        # CSS file
 │
-├── core_objects.txt       # Python core concepts notes
-├── Fundamentals.txt       # Python fundamentals revision
-├── HTTP_Method.txt        # HTTP methods notes
+├── core_objects.txt        # Python core concepts notes
+├── Fundamentals.txt        # Python fundamentals revision
+├── HTTP_Method.txt         # HTTP methods notes
 │
-├── __pycache__/           # Auto-generated
+├── __pycache__/            # Auto-generated (keep, but ignore in git)
+│
 └── README.md
+
 ```
 
 (Some files are notes created during learning for revision purposes.)
